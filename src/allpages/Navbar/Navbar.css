@@ -18,3 +18,11 @@ color: white;
 .navbar{
     background-color: #161853;
 }
+@media screen and (max-width:480px) {
+    .bgcolor{
+    font-size: 20px;
+    }
+    .sm-btn{
+        background-color: rgb(190, 180, 180);
+    }
+}

@@ -1,0 +1,69 @@
+.banner-container{
+    display: flex;
+    background-color: #161853;
+    height: 550px;
+}
+
+.banner-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+    padding-left: 5%;
+}
+.typeeffect{
+    color: rgb(233, 233, 50);
+    border: none;
+    
+    
+}
+.react-typewriter-text{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1px;
+    padding: 1px;
+}
+.greeting{
+    font-size: 55px;
+    padding-top: 5%;
+    font-weight: 800;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.title-name{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: white;
+    letter-spacing: 5px;
+}
+.banner-right{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    padding-bottom: 2%;
+}
+.first-div-img{
+    height: 400px;
+    width: 500px;
+    border: 2px solid white;
+    outline-offset: -1px;
+    background-color: white;
+    outline: 10px solid white;
+    transform: rotate(-10deg);
+}
+.second-div-img{
+    height: 400px;
+    width: 500px;
+    background-color: wheat;
+    border: 2px solid black;
+    outline-offset: -1px;
+    outline: 8px solid black;
+    transform: rotate(10deg);
+}
