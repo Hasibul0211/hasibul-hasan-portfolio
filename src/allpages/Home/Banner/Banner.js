@@ -1,6 +1,8 @@
 import React from 'react';
 import "./Banner.css";
+import banner from "../../../images/banner/hasibul02.png"
 import TypeWriterEffect from 'react-typewriter-effect';
+
 
 const Banner = () => {
     return (
@@ -28,7 +30,7 @@ const Banner = () => {
                             }}
                             startDelay={100}
                             cursorColor="#161853"
-                            text="&"
+                            text="and"
                             typeSpeed={200}
                             loop={true}
                         />
@@ -48,10 +50,9 @@ const Banner = () => {
 
                 </div>
                 <div className="banner-right">
-                    <p>this iss img here</p>
                     <div className="first-div-img">
                         <div className="second-div-img">
-
+                            <img src={banner} alt="banner img" />
                         </div>
                     </div>
                 </div>

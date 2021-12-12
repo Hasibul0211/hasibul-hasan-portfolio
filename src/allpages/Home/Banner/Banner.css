@@ -61,9 +61,57 @@
 .second-div-img{
     height: 400px;
     width: 500px;
-    background-color: wheat;
-    border: 2px solid black;
+    background-color: rgb(124, 112, 88);
+    border: 2px solid rgb(105, 30, 30);
     outline-offset: -1px;
     outline: 8px solid black;
     transform: rotate(10deg);
+}
+.second-div-img img{
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+@media screen and (max-width:480px) {
+    .banner-container{
+    height: 700px;
+    padding-bottom: 2%;
+}
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .greeting{
+        font-size: 40px;
+        margin-left: 2px;
+    }
+    .title-name{
+        font-size: 29px;
+
+    }
+
+.banner-right{
+    width: 100%;
+    padding-bottom: 2%;
+}
+.first-div-img{
+    height: 300px;
+    width: 380px;
+    transform: rotate(-5deg);
+    
+}
+.second-div-img{
+    height: 300px;
+    width: 380px;
+    background-color: wheat;
+    border: 2px solid black;
+    outline-offset: -1px;
+    outline: 5px solid black;
+    transform: rotate(5deg);
+}
 }
