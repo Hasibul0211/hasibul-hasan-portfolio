@@ -18,11 +18,25 @@ color: white;
 .navbar{
     background-color: #161853;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:440px) {
     .bgcolor{
-    font-size: 20px;
+    font-size: 17px;
     }
     .sm-btn{
         background-color: rgb(230, 222, 222);
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
+    .nav-item a{
+        margin: 5px;
+    }
+}
+@media screen and (min-width:440px) {
+    .sm-btn{
+        background-color: blanchedalmond;
+    }
+    .bgcolor{
+        font-size: 20px;
     }
 }

@@ -1,7 +1,7 @@
 .banner-container{
     display: flex;
     background-color: #161853;
-    height: 550px;
+    min-height: 550px;
 }
 
 .banner-left{
@@ -73,12 +73,14 @@
     border: 5px solid black;
     border-radius: 50%;
     background-color: blanchedalmond;
+    transform: rotate(-2deg);
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:440px) {
     .banner-container{
-    height: 700px;
-    padding-bottom: 2%;
+    min-height: 550px;
+    padding-bottom: 8%;
+    padding-top: 0;
 }
     .banner-container{
         flex-direction: column-reverse;
@@ -87,31 +89,178 @@
         width: 100%;
     }
     .greeting{
-        font-size: 40px;
+        font-size: 28px;
         margin-left: 2px;
     }
     .title-name{
-        font-size: 29px;
+        font-size: 18px;
 
     }
+    .react-typewriter-text{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+.typeeffect{
+    margin-bottom: 0;
+}
 
 .banner-right{
-    width: 100%;
+    width: 92%;
     padding-bottom: 2%;
+    padding-left: 10%;
 }
 .first-div-img{
-    height: 300px;
-    width: 380px;
+    height: 100%;
+    width: 100%;
     transform: rotate(-5deg);
     
 }
 .second-div-img{
-    height: 300px;
-    width: 380px;
+    height: 100%;
+    width: 100%;
     background-color: wheat;
     border: 2px solid black;
     outline-offset: -1px;
     outline: 5px solid black;
     transform: rotate(5deg);
+}
+.second-div-img img{
+    transform: rotate(-2deg);
+}
+}
+
+@media screen and (min-width:440px) {
+    .banner-right{
+        width: 100%;
+        padding-bottom: 2%;
+        padding-top: 15%;
+
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .greeting{
+        font-size: 43px;
+        margin-left: 2px;
+    }
+    .title-name{
+        font-size: 23px;
+
+    }
+    .react-typewriter-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    }
+    .typeeffect{
+        margin-bottom: 1px;
+    }
+    .first-div-img{
+    height: 90%;
+    width: 80%;
+    transform: rotate(-5deg);
+    
+}
+    .second-div-img{
+    height: 90%;
+    width: 100%;
+    background-color: wheat;
+    border: 2px solid black;
+    outline-offset: -1px;
+    outline: 5px solid black;
+    transform: rotate(5deg);
+    }
+.second-div-img img{
+    transform: rotate(-2deg);
+}
+.banner-container{
+        flex-direction: column-reverse;
+        min-height: 600px;
+        padding-bottom: 8%;
+        padding-top: 0;
+        box-sizing: border-box;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .banner-container{
+    display: flex;
+    background-color: #161853;
+    min-height: 550px;
+    flex-direction: row;
+}
+
+.banner-left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    align-items: center;
+    padding-left: 5%;
+}
+.typeeffect{
+    color: rgb(233, 233, 50);
+    border: none;
+    
+    
+}
+.react-typewriter-text{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 1px;
+    padding: 1px;
+}
+.greeting{
+    font-size: 55px;
+    padding-top: 5%;
+    font-weight: 800;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+.title-name{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+    font-weight: 900;
+    font-family: 'Merriweather', serif;
+    color: white;
+    letter-spacing: 5px;
+}
+.banner-right{
+    text-align: center;
+    width: 45%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-left: 2%;
+}
+.first-div-img{
+    height: 90%;
+    width: 82%;
+    margin-top: 5%;
+    border: 2px solid white;
+    outline-offset: -1px;
+    background-color: white;
+    outline: 10px solid white;
+    transform: rotate(-10deg);
+}
+.second-div-img{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(124, 112, 88);
+    border: 2px solid rgb(105, 30, 30);
+    outline-offset: -1px;
+    outline: 8px solid black;
+    transform: rotate(10deg);
+}
+.second-div-img img{
+    height: 100%;
+    width: 100%;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    transform: rotate(-2deg);
 }
 }
