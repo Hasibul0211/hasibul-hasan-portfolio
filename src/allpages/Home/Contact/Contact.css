@@ -1,0 +1,111 @@
+.contact-info div:nth-child(1){
+    font-size: 40px;
+    color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-info div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.contact-info{
+    border-bottom: 1px solid darkgrey;
+    background-color: rgb(252, 248, 248);
+    padding-bottom: 5px;
+    margin: 0;
+    padding-top: 3px;
+    margin-bottom: 5px;
+
+}
+
+.contact-info h2{
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+.contact-info p{
+    font-size: 13px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+textarea{
+    resize: none;
+}
+form label{
+    margin: 0;
+}
+form input{
+    margin: 0;
+}
+.contact-title{
+    text-align: center;
+    font-weight: 700;
+    padding-top: 3%;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5%;
+}
+.ur-msg{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+    background-color: darkgrey;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+}
+.getint{
+    text-align: center;
+    text-transform: capitalize;
+    background-color: darkgrey;
+    padding: 3px;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+
+@media screen and (max-width:440px) {
+    .contact-info h2{
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+}
+.contact-info p{
+    font-size: 11px;
+}
+.contact-title{
+    font-size: 27px;
+    margin-bottom: 10%;
+}
+
+}
+
+
+@media only screen and (min-width: 440px) {
+.contact-info h2{
+    margin: 0;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    font-weight: 800;
+}
+}
+@media only screen and (min-width: 992px) {
+    .contact-info h2{
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+}
